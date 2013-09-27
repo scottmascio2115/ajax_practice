@@ -1,0 +1,21 @@
+  <div>
+
+      <h1>Ajax Practice</h1>
+      
+      
+      <h3 id="echo"><%= erb :_echo %></h3>
+      
+
+      <form action='/echo' method='POST'>
+        <label for="user_input">
+          type some data to send:</label>
+        <input type="text" name="user_input">
+        <input type="submit">
+      </form>
+
+      <h2 id="quote"><a href= "/click" data-type="get">click here for a quote</a></h2>
+      <div id="show_quote"></div>
+
+
+</div>
+
